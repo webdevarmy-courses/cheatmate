@@ -288,7 +288,7 @@ export class CheatingDaddyApp extends LitElement {
     async handleAPIKeyHelp() {
         if (window.require) {
             const { ipcRenderer } = window.require('electron');
-            await ipcRenderer.invoke('open-external', 'https://cheatingdaddy.com/help/api-key');
+            await ipcRenderer.invoke('open-external', 'https://island-banana-8a6.notion.site/Cheating-Dev-29e44938f4f580d2b215ef38b2ec0abc?pvs=74');
         }
     }
 

@@ -174,13 +174,13 @@ export class AppHeader extends LitElement {
 
     getViewTitle() {
         const titles = {
-            onboarding: 'Welcome to CheatMate',
-            main: 'CheatMate',
+            onboarding: 'Welcome to Cheating Dev',
+            main: 'Cheating Dev',
             customize: 'Customize',
             help: 'Help & Shortcuts',
             history: 'Conversation History',
             advanced: 'Advanced Tools',
-            assistant: 'CheatMate',
+            assistant: 'Cheating Dev',
         };
         return titles[this.currentView] || 'Cheating Daddy';
     }
